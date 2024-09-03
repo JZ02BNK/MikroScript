@@ -10,16 +10,18 @@ Salah satu script yang berbasis [/system clock get date] ini adalah Mikhmon Expi
 Dampak besar dari perubahan pada format tanggal pada Mikrotik RouterOS versi 7.10 ini adalah Mikrotik Mikhmon Expire Monitor tidak dapat melakukan penghapusan otomatis user-user yang sudah expired tersebut. Akibatnya user-user tersebut akan selalu aktif atau tidak pernah Expired.
 
 ![image](https://github.com/user-attachments/assets/dab0ff13-ab20-4d4a-9c2b-3bb53f3b253e)
+
 Ini adalah format tanggal dari Mikrotik RouterOS versi 7.9.1. Terlihat perintah [/system clock get date] menghasilkan output oct/14/2023.
 
 ![image](https://github.com/user-attachments/assets/4ef5aaa6-f569-4e21-aebc-e37f4d51245c)
+
 Dan ini adalah format tanggal dari Mikrotik RouterOS versi 7.11.2. Terlihat perintah [/system clock get date] menghasilkan output 2023-10-14.
 
 Untuk mengatasi masalah tersebut, silahkan update Mikrotik Expire Monitor script di scheduler anda. Khusus untuk Mikrotik RouterOS versi 7.10 ke atas.
 
 Perlu dicatat: Agar anda membackup terlebih dulu konfigurasi Mikrotik anda untuk mencegah hal-hal yang tidak diinginkan.
 
-========================================================================================================================
+================================================================================
 
 :local dateint do={
    :local days [ :pick $d 8 12 ];
