@@ -1,7 +1,9 @@
 # MikroScript
 Mikrotik Mikhmon Expire Monitor
 
-![image](https://github.com/user-attachments/assets/f2958ade-af27-43b8-be91-c6af2201f5db)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f2958ade-af27-43b8-be91-c6af2201f5db" />
+</p>
 
 Mikrotik RouterOS pada versi 7.10 melakukan perubahan pada format tanggal (date format). Hal ini akan membuat script yang berbasis [/system clock get date] tidak berfungsi sebagaimana mestinya.
 
