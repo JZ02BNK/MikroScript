@@ -27,6 +27,6 @@ Untuk mengatasi masalah tersebut, silahkan update Mikrotik Expire Monitor script
 
 Perlu dicatat: Agar anda membackup terlebih dulu konfigurasi Mikrotik anda untuk mencegah hal-hal yang tidak diinginkan.
 
-[ [mikhmon-expire-monitor-v7.11.2](https://github.com/rianx69/MikroScript/blob/main/mikhmon-expire-monitor-v7.11.2) ] 
+[ [mikhmon-expire-monitor-v7.11.2](https://github.com/JZ02BNK/MikroScript/blob/main/mikhmon-expire-monitor-v7.11.2) ] 
 
-[ [Auto Remove Mikrotik Userman Expired User](https://github.com/rianx69/MikroScript/blob/main/Auto%20Remove%20Mikrotik%20Userman%20Expired%20User) ] 
+[ [Auto Remove Mikrotik Userman Expired User](https://github.com/JZ02BNK/MikroScript/blob/main/Auto%20Remove%20Mikrotik%20Userman%20Expired%20User) ] 
